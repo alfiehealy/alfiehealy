@@ -1,0 +1,33 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid-l" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#eaeef2" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade-l" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="75%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="clip-l">
+      <rect width="900" height="180" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip-l)">
+    <rect width="900" height="180" fill="#ffffff"/>
+    <rect width="900" height="180" fill="url(#grid-l)"/>
+    <rect width="900" height="180" fill="url(#fade-l)"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="899" height="179" rx="6" fill="none" stroke="#d0d7de" stroke-width="1"/>
+
+  <text x="40" y="72" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15">
+    <tspan fill="#57606a">alfiehealy</tspan><tspan fill="#8c959f">@</tspan><tspan fill="#57606a">github</tspan><tspan fill="#8c959f">:~$</tspan>
+  </text>
+
+  <text x="40" y="118" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="700" fill="#1f2328">ALFIE HEALY</text>
+
+  <rect x="300" y="90" width="8" height="29" fill="#1a7f37"/>
+
+  <text x="40" y="150" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" fill="#57606a">AI &amp; Automation Engineer <tspan fill="#8c959f">·</tspan> PowerShell <tspan fill="#8c959f">·</tspan> Python</text>
+</svg>
